@@ -23,7 +23,7 @@ const collectEmployees = function() {
   }
   employees.push(employee)
   console.log(employees)
-  keepPlaying = confirm('Do you want to keep playing')
+  keepPlaying = confirm('Do you want to add another employee')
   }
   displayEmployees(employees)
 }
